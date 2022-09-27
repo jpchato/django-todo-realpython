@@ -1,0 +1,1 @@
+* [https://realpython.com/django-todo-lists/#create-the-database](https://realpython.com/django-todo-lists/#create-the-database)
