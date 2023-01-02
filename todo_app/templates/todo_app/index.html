@@ -7,9 +7,11 @@
 <h3>All my lists</h3>
 {%  endif %}
 <ul>
-    {% for todlist in object_list %}
+    {% for todolist in object_list %}
     <li>
-        <div role="button" onclick="location.href='{% url "list" todolist.id %}'">
+        <div 
+            role="button" 
+            onclick="location.href='{% url "list" todolist.id %}'">
             {{ todolist.title }}
         </div>
     </li>
